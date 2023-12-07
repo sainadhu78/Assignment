@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UI/UX</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+      <aside>
+           
+         <div class="top">
+           <div class="logo">
+             <h2>MF <span class="danger">Sainadh</span> </h2>
+           </div>
+           <div class="close" id="close_btn">
+            <span class="material-symbols-sharp">
+              close
+              </span>
+           </div>
+         </div>
+         <!-- end top -->
+          <div class="sidebar">
+
+            <a href="#">
+              <span class="material-symbols-sharp">grid_view </span>
+              <h3>MF Dashbord</h3>
+           </a>
+           <a href="#" >
+              <span class="material-symbols-sharp">person_outline </span>
+              <h3>custumers</h3>
+           </a>
+           <a href="#">
+              <span class="material-symbols-sharp">insights </span>
+              <h3>Analytics</h3>
+           </a>
+           <a href="#">
+              <span class="material-symbols-sharp">mail_outline </span>
+              <h3>Messages</h3>
+              <span class="msg_count">14</span>
+           </a>
+           <a href="#" class="active">
+              <span class="material-symbols-sharp">receipt_long </span>
+              <h3>Mutual Funds-Allocations</h3>
+           </a>
+           <a href="#">
+              <span class="material-symbols-sharp">report_gmailerrorred </span>
+              <h3>Reports</h3>
+           </a>
+           <a href="#">
+              <span class="material-symbols-sharp">settings </span>
+              <h3>settings</h3>
+           </a>
+           <a href="#">
+              <span class="material-symbols-sharp">add </span>
+              <h3>Add Product</h3>
+           </a>
+           <a href="#">
+              <span class="material-symbols-sharp">logout </span>
+              <h3>logout</h3>
+           </a>
+             
+
+
+          </div>
+
+      </aside>
+      <!-- --------------
+        end asid
+      -------------------- -->
+
+      <!-- --------------
+        start main part
+      --------------- -->
+
+      <main>
+           <h1>Mutual Fund Dashbord</h1>
+
+           <div class="date">
+             <input type="date" >
+           </div>
+
+        <div class="insights">
+
+           <!-- start seling -->
+            <div class="sales">
+               <span class="material-symbols-sharp">trending_up</span>
+               <div class="middle">
+
+                 <div class="left">
+                   <h3><b>NSE</b></h3>
+                   <h1>₹10714.39</h1>
+                 </div>
+
+               </div>
+               <small>Last 24 Hours</small>
+            </div>
+            <!-- end seling -->
+               <!-- start seling -->
+               <div class="income">
+                <span class="material-symbols-sharp">trending_down</span>
+                <div class="middle">
+ 
+                  <div class="left">
+                    <h3><b>BSE</b></h3>
+                    <h1>₹35423.48</h1>
+                  </div>
+                   
+ 
+                </div>
+                <small>Last 24 Hours</small>
+             </div>
+            <!-- end seling -->
+
+        </div>
+       <!-- end insights -->
+      <div class="recent_order">
+         <table> 
+             <thead>
+              <tr>
+                <th>Company</th>
+                <th>UNITS</th>
+                <th>Total (₹)</th>
+              </tr>
+             </thead>
+              <tbody>
+                 <tr>
+                   <td>Aditya Birla sl Frontline Equity Fund</td>
+                   <td>14,200</td>
+                   <td>₹24,052<p style="color:green">+ 4%</p></td>
+
+                 </tr>
+                 <tr>
+                  <td>HDFC Long Term Advantage Fund</td>
+                  <td>421</td>
+                  <td>₹6,142<p style="color:red">- 9%</p></td>
+                </tr>
+                <tr>
+                  <td>Sundaram Mid Cap Fund</td>
+                  <td>1,420</td>
+                  <td>₹5,142<p style="color:red">- 12%</p></td>
+                </tr>
+              </tbody>
+         </table>
+         <a href="#">Show All</a>
+      </div>
+
+      </main>
+      <!------------------
+         end main
+        ------------------->
+
+      <!----------------
+        start right main 
+      ---------------------->
+    <div class="right">
+
+<div class="top">
+   <button id="menu_bar">
+     <span class="material-symbols-sharp">menu</span>
+   </button>
+
+   <div class="theme-toggler">
+     <span class="material-symbols-sharp active">light_mode</span>
+     <span class="material-symbols-sharp">dark_mode</span>
+   </div>
+    <div class="profile">
+       <div class="info">
+           <p><b>Sainadh</b></p>
+           <p>Admin</p>
+           <small class="text-muted"></small>
+       </div>
+       <div class="profile-photo">
+         <img src="./images/3135715.png" alt=""/>
+       </div>
+    </div>
+</div>
+
+  <div class="recent_updates">
+     <h2>Invest Now</h2>
+   <div class="updates">
+      <div class="update">
+         <div class="profile-photo">
+            <img src="./images/logo.png" alt=""/>
+         </div>
+        <div class="message">
+           <p><b>Mutual Funds - ELSS</b></p>
+        </div>
+      </div>
+      <div class="update">
+        <div class="profile-photo">
+        <img src="./images/logo.png" alt=""/>
+        </div>
+       <div class="message">
+          <p><b>Mutual Funds - Mid Cap</b></p>
+       </div>
+     </div>
+     <div class="update">
+      <div class="profile-photo">
+         <img src="./images/logo.png" alt=""/>
+      </div>
+     <div class="message">
+        <p><b>Stocks</b></p>
+     </div>
+   </div>
+  </div>
+  </div>
+
+
+   <div class="sales-analytics">
+     <h2>RECOMMENDED fOR YOU</h2>
+
+      <div class="item onlion">
+        <div class="icon">
+          <span class="material-symbols-sharp">shopping_cart</span>
+        </div>
+        <div class="right_text">
+          <div class="info">
+            <h3>Aditya Birla sl Frontline Equity Fund</h3>
+            <small class="text-muted">Mutual Funds</small>
+          </div>
+          <h3><p style="color:green">+ 14%</p></h3>
+        </div>
+      </div>
+      <div class="item onlion">
+        <div class="icon">
+          <span class="material-symbols-sharp">shopping_cart</span>
+        </div>
+        <div class="right_text">
+          <div class="info">
+            <h3>HDFC Long Term Advantage Fund</h3>
+            <small class="text-muted">Mutual Funds ELSS</small>
+          </div>
+          <h3><p style="color:green">+ 15%</p></h3>
+        </div>
+      </div>
+      <div class="item onlion">
+        <div class="icon">
+          <span class="material-symbols-sharp">shopping_cart</span>
+        </div>
+        <div class="right_text">
+          <div class="info">
+            <h3>Sundaram Mid Cap Fund</h3>
+            <small class="text-muted">MutualFunds ELSS</small>
+          </div>
+          <h3><p style="color:green">+ 14%</p></h3>
+        </div>
+      </div>
+  
+
+</div>
+
+      <div class="item add_product">
+            <div>
+            <span class="material-symbols-sharp">add</span>
+            </div>
+     </div>
+</div>
+
+
+   </div>
+
+
+
+   <script src="script.js"></script>
+</body>
+</html>
